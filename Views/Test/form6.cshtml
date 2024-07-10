@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Form 6</h1>
+<form method="post">
+    <table>
+        <tr>
+            <td><label>Result</label></td>
+            <td><input type="text" name="result" value="@TempData["result"]" readonly /></td>
+        </tr>
+        <tr>
+            <td><label>Operations</label></td>
+            <td><input type="text" name="op" value="@TempData["b1"]" readonly /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="back" /></td>
+        </tr>
+    </table>
+</form>

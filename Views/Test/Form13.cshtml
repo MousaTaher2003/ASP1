@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>From 13</h1>
+<form method="post">
+
+    <table>
+
+        <tr>
+            <td>Depatment</td>
+            <td><input type="text" name="department" value="@TempData["department"]" readonly /></td>
+
+        </tr>
+
+        <tr>
+            <td>Telephone</td>
+            <td><input type="text" name="tel" value="@ViewBag.tel" readonly /></td>
+        </tr>
+
+        <tr>
+            <td>Description</td>
+            <td><textarea name="desc" readonly>@TempData["desc"]</textarea></td>
+        </tr>
+
+
+    </table>
+
+</form>
